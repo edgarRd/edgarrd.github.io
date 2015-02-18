@@ -236,8 +236,8 @@ header.main-header {
 }
 
 footer.main-footer {
-  background-color: $base-00;
-  color: $base-07;
+  background-color: $color-1;
+  color: $base-00;
   .column {
     float:left;
     @include column(1);
