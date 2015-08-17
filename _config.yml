@@ -11,19 +11,18 @@ url: http://rodr.io
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: Edgar Rodriguez-Diaz
+  name: Edgar Rodriguez
   # Little description about your site
-  description: My personal blog
+  description: Everything should be made as simple as possible, but not simpler.
   # 'meta_description:' Write an awesome description for your new site here.
   # It will appear in your document head meta (for Google search results) and
   # in your feed.xml site description.
   meta_description: > #
-    I am an Engineer and I work on AI,
-    Semantic Web, Graph Analytics and Distributed Systems.
-    I write code.
+    Software Engineer working on
+    Semantic Web, Graph Databases and Distributed Systems.
   basetheme: theme-base-08 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: Edgar Rodriguez-Diaz
+    name: Edgar Rodriguez
     email: edgar@rodr.io
     url: http://rodr.io
 
