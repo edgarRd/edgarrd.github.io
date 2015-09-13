@@ -53,6 +53,9 @@ exclude:
   - .sass-cache
   - Gemfile.lock
 
+gems:
+  - jekyll-feed
+
 # Sass conversion configs
 sass:
     sass_dir: assets/css/_sass
