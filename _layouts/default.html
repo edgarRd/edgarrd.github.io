@@ -30,8 +30,10 @@
             <div class="wc-container">
                 <h1><a href="{{ site.baseurl }}/">{{ site.harmony.name }}</a></h1>
                 <i><q>{{ site.harmony.description }}</q></i>
+                <div style="margin-top: 10px">
+                    {% include header-links.html %}
+                </div>
             </div>
-            {% include header-links.html %}
         </header>
         {{ content }}
         <footer class="main-footer">
