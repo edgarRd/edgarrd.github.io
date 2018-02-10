@@ -1,62 +1,41 @@
-# Harmony Jekyll theme general configurations
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Base URL
-baseurl: ''
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Edgar's Blog
+# email: 
+description: >- # this means to ignore newlines until "baseurl:"
+  Everything should be made as simple as possible, but not simpler.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://rodr.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: edgarRd
+github_username:  edgarRd
 
-# Site live URL
-url: http://rodr.io
-
-# Localhost
-# url: http://127.0.0.1:4000
-
-# Harmony theme configuration. Please change accordingly.
-harmony:
-  name: Edgar Rodriguez
-  # Little description about your site
-  description: Everything should be made as simple as possible, but not simpler.
-  # 'meta_description:' Write an awesome description for your new site here.
-  # It will appear in your document head meta (for Google search results) and
-  # in your feed.xml site description.
-  meta_description: > #
-    Software Engineer working on
-    Semantic Web, Graph Databases and Distributed Systems.
-  basetheme: theme-base-08 # pre defined thmes are darken, blue-water, redish.
-  author: # Author details
-    name: Edgar Rodriguez
-    email: edgar@rodr.io
-    url: http://rodr.io
-
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-xxxx-x
-
-  # Profile links, leave blank to ignore
-  social:
-    github: edgarRd
-    twitter: edgarRd
-  # Toggle disclaimer in footer
-  show_disclaimer: false
-
-# Conversion / Build settings
-markdown:    kramdown
-# This is how you put rouge config in jekyll 2.0 (Github supports rouge)
-highlighter: rouge
-
-# Permalinks
-permalink:        pretty
-
-exclude:
-  - CNAME
-  - Gemfile
-  - Rakefile
-  - README.md
-  - .gitignore
-  - .sass-cache
-  - Gemfile.lock
-
-gems:
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
   - jekyll-feed
 
-# Sass conversion configs
-sass:
-    sass_dir: assets/css/_sass
-    style: :compressed
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
